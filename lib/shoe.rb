@@ -20,4 +20,6 @@ class Shoe
     puts "Your shoe is as good as new!"
     @condition = "new"
   end 
+  
+  #here you used macros to make setters and getters for non customised attributes. Condition was not in the macro because it gets accessed by another method, cobble, later in the class. 
 end 
